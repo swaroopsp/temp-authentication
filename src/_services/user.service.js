@@ -8,7 +8,7 @@ export const userService = {
 
 function login(username, password) {
 
-    return fetch('http://localhost:3000/users/authenticate',
+    return fetch('http://localhost:3001/users/authenticate',
     {
         method: 'post',
         crossDomain:true,
